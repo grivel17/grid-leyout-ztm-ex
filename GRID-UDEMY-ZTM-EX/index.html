@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background: rgb(11,172,39);
+        background: linear-gradient(180deg, rgba(11,172,39,1) 21%, rgba(58,208,0,1) 58%, rgba(59,255,110,1) 100%);
+    }
+
+    nav ul {
+        display: flex;
+        width: 90%;
+    }
+
+    nav ul li {
+        color: azure;
+        list-style: none;
+        padding: 10px;
+    }
+
+    nav ul li:last-child {
+        color: wheat;
+        float: right;  
+        margin-left: auto;
+    }
+    
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(172,11,144);
+        background: linear-gradient(180deg, rgba(172,11,144,1) 41%, rgba(91,0,208,1) 100%, rgba(59,255,110,1) 100%);    
+        width: 100%;
+        height: 50vh;
+        color: azure;
+        font-size: 3rem;
+    }
+/* tu start */
+    .gallery {
+        background-color: cadetblue;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+    }
+
+    .poster {
+        background-color: cornflowerblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 130px;
+    
+      
+    }
+
+    .poster > img {
+        width: 100%;
+        height: auto;
+    
+    }
+
+/* tu koniec */
+    footer {
+        color: azure;
+        padding: 10px;
+        font-size: 1.2rem;
+        text-align: center;
+        background: rgb(141,172,11);
+        background: linear-gradient(180deg, rgba(141,172,11,1) 41%, rgba(91,0,208,1) 100%, rgba(59,255,110,1) 100%);
+    }
+
+</style>
+
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>About</li>
+            <li>Products</li>
+            <li>Our team</li>
+            <li>Contact</li>
+        </ul>    
+    </nav>
+
+    <div class="hero">
+        <div>Cover !!!</div>
+
+    </div>
+
+    <div class="gallery">
+        <div class="poster"><img src="data_storage_2_2.png"></div>
+        <div class="poster"><img src="desktop_analytics_2.png"></div>
+        <div class="poster"><img src="files_2.png"></div>
+        <div class="poster"><img src="monitor_coding_2.png"></div>
+
+
+
+        <div class="poster"><img src="monitor_settings_2.png"></div>
+        <div class="poster"><img src="server_2_2.png"></div>
+        <div class="poster"><img src="server_3.png"></div>
+        <div class="poster"><img src="server_safe_2.png"></div>
+
+    </div>
+    <footer>
+        By Grivel17
+    </footer>
+    
+</body>
+</html>
