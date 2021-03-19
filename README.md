@@ -4,6 +4,6 @@ It's a www layout built on css grid. Contains every necessary sectiones like: na
 
 # HOW TO USE IT? 
 
-Just clone repo and fill free to reuse.
+Just clone repo and feal free to reuse.
 
 
